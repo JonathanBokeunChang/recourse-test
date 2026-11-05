@@ -41,7 +41,7 @@ Generated LaTeX tables and macros are written to `paper/`.
 
 ## Re-running the experiments (makes model calls)
 
-- Claude underwriters (`haiku`, `sonnet`, `opus`) were called through the Claude Code CLI (`claude -p --model <alias>`) in October 2026 at provider-default decoding. Exact model snapshot identifiers were not recorded, so re-runs may use newer models behind the same aliases.
+- Claude underwriters (`haiku`, `sonnet`, `opus`) were called through the Claude Code CLI (`claude -p --model <alias>`) between 29 September and 1 October 2026 at provider-default decoding (the CLI adds its default system prompt). Exact model snapshot identifiers were not recorded, so re-runs may use newer models behind the same aliases.
 - GPT-4.1 was called through the OpenAI API (`src/gpt_client.py`, `max_completion_tokens=300`, default temperature). The key is read from `~/.config/icaif/openai_key` and is never stored in the repository.
 - One sample per replay. Application samples are drawn with `random.Random(seed).sample(range(1000), n)` (seed 3 for the primary run of 260, seed 4 for the second run of 200).
 
