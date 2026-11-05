@@ -1,0 +1,104 @@
+{
+ "cfg": {
+  "model": "haiku",
+  "n": 6,
+  "workers": 2,
+  "seed": 99
+ },
+ "cases": {
+  "413": {
+   "idx": 413,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R1"
+   ],
+   "cited_is_adverse": false
+  },
+  "389": {
+   "idx": 389,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "204": {
+   "idx": 204,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "613": {
+   "idx": 613,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "183": {
+   "idx": 183,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "235": {
+   "idx": 235,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  }
+ }
+}

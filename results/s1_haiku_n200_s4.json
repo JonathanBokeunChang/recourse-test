@@ -1,0 +1,2971 @@
+{
+ "cfg": {
+  "model": "haiku",
+  "n": 200,
+  "workers": 6,
+  "seed": 4
+ },
+ "cases": {
+  "241": {
+   "idx": 241,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "310": {
+   "idx": 310,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R7"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "105": {
+   "idx": 105,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "738": {
+   "idx": 738,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R8",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "405": {
+   "idx": 405,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "490": {
+   "idx": 490,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "158": {
+   "idx": 158,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R3",
+    "R9"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": false
+  },
+  "92": {
+   "idx": 92,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R9"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "68": {
+   "idx": 68,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R12",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": false
+  },
+  "20": {
+   "idx": 20,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "411": {
+   "idx": 411,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "562": {
+   "idx": 562,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "939": {
+   "idx": 939,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "296": {
+   "idx": 296,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "819": {
+   "idx": 819,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "783": {
+   "idx": 783,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R9"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R9"
+   ],
+   "cited_is_adverse": true
+  },
+  "60": {
+   "idx": 60,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "227": {
+   "idx": 227,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "532": {
+   "idx": 532,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "549": {
+   "idx": 549,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "368": {
+   "idx": 368,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "283": {
+   "idx": 283,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "798": {
+   "idx": 798,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "176": {
+   "idx": 176,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "846": {
+   "idx": 846,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R3",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R3",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "108": {
+   "idx": 108,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "268": {
+   "idx": 268,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "219": {
+   "idx": 219,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": false
+  },
+  "965": {
+   "idx": 965,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R6",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "949": {
+   "idx": 949,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "26": {
+   "idx": 26,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R3",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "848": {
+   "idx": 848,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "656": {
+   "idx": 656,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "826": {
+   "idx": 826,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "266": {
+   "idx": 266,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "985": {
+   "idx": 985,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "278": {
+   "idx": 278,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "198": {
+   "idx": 198,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "168": {
+   "idx": 168,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "317": {
+   "idx": 317,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "986": {
+   "idx": 986,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "642": {
+   "idx": 642,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "888": {
+   "idx": 888,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "749": {
+   "idx": 749,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "875": {
+   "idx": 875,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "868": {
+   "idx": 868,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "901": {
+   "idx": 901,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "381": {
+   "idx": 381,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "88": {
+   "idx": 88,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "865": {
+   "idx": 865,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "620": {
+   "idx": 620,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "345": {
+   "idx": 345,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "687": {
+   "idx": 687,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R8",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "397": {
+   "idx": 397,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "518": {
+   "idx": 518,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "254": {
+   "idx": 254,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "182": {
+   "idx": 182,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "253": {
+   "idx": 253,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "484": {
+   "idx": 484,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "286": {
+   "idx": 286,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "91": {
+   "idx": 91,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "837": {
+   "idx": 837,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "886": {
+   "idx": 886,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "560": {
+   "idx": 560,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "860": {
+   "idx": 860,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "307": {
+   "idx": 307,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "7": {
+   "idx": 7,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "930": {
+   "idx": 930,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "298": {
+   "idx": 298,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "586": {
+   "idx": 586,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "721": {
+   "idx": 721,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "903": {
+   "idx": 903,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": [
+    "R3",
+    "R1"
+   ]
+  },
+  "319": {
+   "idx": 319,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "954": {
+   "idx": 954,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "984": {
+   "idx": 984,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "520": {
+   "idx": 520,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "199": {
+   "idx": 199,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "423": {
+   "idx": 423,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "433": {
+   "idx": 433,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "613": {
+   "idx": 613,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "295": {
+   "idx": 295,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "441": {
+   "idx": 441,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "462": {
+   "idx": 462,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "165": {
+   "idx": 165,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "238": {
+   "idx": 238,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "312": {
+   "idx": 312,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "265": {
+   "idx": 265,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "832": {
+   "idx": 832,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "816": {
+   "idx": 816,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": false
+  },
+  "44": {
+   "idx": 44,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "83": {
+   "idx": 83,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "47": {
+   "idx": 47,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "473": {
+   "idx": 473,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "641": {
+   "idx": 641,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "287": {
+   "idx": 287,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "531": {
+   "idx": 531,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "547": {
+   "idx": 547,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R3",
+    "R7"
+   ],
+   "cited_is_adverse": false
+  },
+  "663": {
+   "idx": 663,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "482": {
+   "idx": 482,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "717": {
+   "idx": 717,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": [
+    "R3",
+    "R8"
+   ]
+  },
+  "351": {
+   "idx": 351,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "148": {
+   "idx": 148,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "689": {
+   "idx": 689,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "200": {
+   "idx": 200,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "991": {
+   "idx": 991,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R9",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "422": {
+   "idx": 422,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "207": {
+   "idx": 207,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "650": {
+   "idx": 650,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "647": {
+   "idx": 647,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "451": {
+   "idx": 451,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "282": {
+   "idx": 282,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "188": {
+   "idx": 188,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "APPROVE",
+   "para_codes": [
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "364": {
+   "idx": 364,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "446": {
+   "idx": 446,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "764": {
+   "idx": 764,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "602": {
+   "idx": 602,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "328": {
+   "idx": 328,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "649": {
+   "idx": 649,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "571": {
+   "idx": 571,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "203": {
+   "idx": 203,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "331": {
+   "idx": 331,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "103": {
+   "idx": 103,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "859": {
+   "idx": 859,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "63": {
+   "idx": 63,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": [
+    "R3",
+    "R11"
+   ]
+  },
+  "725": {
+   "idx": 725,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R9"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "234": {
+   "idx": 234,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "284": {
+   "idx": 284,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "925": {
+   "idx": 925,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R4"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "596": {
+   "idx": 596,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "630": {
+   "idx": 630,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "243": {
+   "idx": 243,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "125": {
+   "idx": 125,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "339": {
+   "idx": 339,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "181": {
+   "idx": 181,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "297": {
+   "idx": 297,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "470": {
+   "idx": 470,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "969": {
+   "idx": 969,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "43": {
+   "idx": 43,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "365": {
+   "idx": 365,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": false
+  },
+  "714": {
+   "idx": 714,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "84": {
+   "idx": 84,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "292": {
+   "idx": 292,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "752": {
+   "idx": 752,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "691": {
+   "idx": 691,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R3",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": false
+  },
+  "334": {
+   "idx": 334,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R8",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R7"
+   ],
+   "cited_is_adverse": true
+  },
+  "18": {
+   "idx": 18,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "330": {
+   "idx": 330,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "919": {
+   "idx": 919,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "329": {
+   "idx": 329,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "156": {
+   "idx": 156,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "793": {
+   "idx": 793,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "667": {
+   "idx": 667,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R3",
+    "R9"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R6",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "420": {
+   "idx": 420,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "635": {
+   "idx": 635,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "696": {
+   "idx": 696,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "938": {
+   "idx": 938,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": [
+    "R3",
+    "R8"
+   ]
+  },
+  "79": {
+   "idx": 79,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "300": {
+   "idx": 300,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "632": {
+   "idx": 632,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "196": {
+   "idx": 196,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "454": {
+   "idx": 454,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "299": {
+   "idx": 299,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "139": {
+   "idx": 139,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R3",
+    "R5"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "APPROVE",
+   "para_codes": [],
+   "cited_is_adverse": true
+  },
+  "256": {
+   "idx": 256,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "390": {
+   "idx": 390,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "920": {
+   "idx": 920,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "162": {
+   "idx": 162,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "867": {
+   "idx": 867,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "932": {
+   "idx": 932,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "9": {
+   "idx": 9,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "372": {
+   "idx": 372,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R4"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "45": {
+   "idx": 45,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "465": {
+   "idx": 465,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R8",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "173": {
+   "idx": 173,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "373": {
+   "idx": 373,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "802": {
+   "idx": 802,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "823": {
+   "idx": 823,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "371": {
+   "idx": 371,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "950": {
+   "idx": 950,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "585": {
+   "idx": 585,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "99": {
+   "idx": 99,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "449": {
+   "idx": 449,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "212": {
+   "idx": 212,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R1"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "434": {
+   "idx": 434,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "817": {
+   "idx": 817,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "116": {
+   "idx": 116,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "983": {
+   "idx": 983,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "876": {
+   "idx": 876,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R1",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "56": {
+   "idx": 56,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R3"
+   ],
+   "cited_is_adverse": true
+  },
+  "754": {
+   "idx": 754,
+   "label": "bad",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "172": {
+   "idx": 172,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R4",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R4",
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "609": {
+   "idx": 609,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "693": {
+   "idx": 693,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R1",
+    "R2"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "153": {
+   "idx": 153,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R1"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  },
+  "621": {
+   "idx": 621,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R9"
+   ],
+   "cited_is_adverse": true
+  },
+  "41": {
+   "idx": 41,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "559": {
+   "idx": 559,
+   "label": "bad",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R4"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R4"
+   ],
+   "cited_is_adverse": true
+  },
+  "502": {
+   "idx": 502,
+   "label": "good",
+   "decision": "APPROVE",
+   "codes": []
+  },
+  "871": {
+   "idx": 871,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2"
+   ],
+   "cited_is_adverse": true
+  },
+  "255": {
+   "idx": 255,
+   "label": "good",
+   "decision": "DENY",
+   "codes": [
+    "R2",
+    "R3"
+   ],
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "para_decision": "DENY",
+   "para_codes": [
+    "R2",
+    "R1"
+   ],
+   "cited_is_adverse": true
+  }
+ }
+}

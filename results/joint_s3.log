@@ -1,0 +1,7 @@
++./run_v2.sh:27> cd p4-recourse
++./run_v2.sh:27> ../.venv/bin/python src/joint_backfill.py --run s1_haiku_n260_s3 --workers 5
+s1_haiku_n260_s3: backfilling joint repair for 17 two-code denials
+joint 0/17
+joint 15/17
+flip(joint, 2-code)=0.907 n=183
+(1-code denials for reference: flip(cited)=1.000 n=10)

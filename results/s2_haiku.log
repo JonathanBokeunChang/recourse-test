@@ -1,0 +1,13 @@
++./run_v2.sh:29> cd p4-recourse
++./run_v2.sh:29> rm -f results/s2_haiku.json results/s2_haiku_summary.json
++./run_v2.sh:30> ../.venv/bin/python src/run_s2.py --model haiku --n-deny 150 --workers 5
+scorecard denials: 150 of 1000 (thresh 0.548, deny rate 0.2)
+explain 0/150
+explain 20/150
+explain 40/150
+explain 60/150
+explain 80/150
+explain 100/150
+explain 120/150
+explain 140/150
+S2 summary: {'flip_cited': 0.527, 'flip_placebo': 0.54, 'top1_agree': 0.387, 'top1_in_true_top2': 0.473, 'cited_adverse': 0.947, 'matched_by_code': {'R3': {'cited': 0.758, 'n_cited': 33, 'placebo': 1.0, 'n_placebo': 8}, 'R1': {'cited': 0.634, 'n_cited': 71, 'placebo': 0.5, 'n_placebo': 8}}, 'n': 150}

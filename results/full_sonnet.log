@@ -1,0 +1,16 @@
++./run_final.sh:13> cd p4-recourse
++./run_final.sh:13> ../.venv/bin/python src/run_recourse.py --model sonnet --n 150 --workers 3 --seed 3
+phase1 0/150
+phase1 20/150
+phase1 40/150
+phase1 60/150
+phase1 80/150
+phase1 100/150
+phase1 120/150
+phase1 140/150
+decisions: 150  denials with codes: 33
+phase2 0/33
+phase2 10/33
+phase2 20/33
+phase2 30/33
+flip(cited)=0.82 flip(placebo)=0.27 cited-adverse=1.00 reason-stable=0.58 decision-stable=0.73

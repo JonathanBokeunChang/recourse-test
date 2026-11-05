@@ -1,0 +1,1370 @@
+{
+ "summary": {
+  "flip_cited": 0.627,
+  "flip_placebo": 0.513,
+  "top1_agree": 0.833,
+  "top1_in_true_top2": 0.927,
+  "cited_adverse": 0.94,
+  "matched_by_code": {
+   "R5": {
+    "cited": 0.529,
+    "n_cited": 17,
+    "placebo": 0.3,
+    "n_placebo": 10
+   }
+  },
+  "n": 150
+ },
+ "cases": [
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R6",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R9",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R3",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "cited_code": "R2",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R12",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R2",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R8",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R4",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R2",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R10",
+   "cited_code": "R9",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "cited_code": "R2",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "cited_code": "R10",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R5",
+   "cited_code": "R8",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R3",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "cited_code": "R9",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R8",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "cited_code": "R9",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R6",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R5",
+   "cited_code": "R8",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R4",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R5",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R12",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R2",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R10",
+   "cited_code": "R8",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R4",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R2",
+   "cited_code": "R11",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R2",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R4",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R8",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R11",
+   "cited_code": "R3",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R2",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "cited_code": "R8",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R6",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R6",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R9",
+   "cited_code": "R2",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R10",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R7",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R10",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R9",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R12",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R5",
+   "cited_code": "R6",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R2",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R6",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R6",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R3",
+   "cited_code": "R2",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R4",
+   "cited_code": "R2",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R3",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R12",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R1",
+   "cited_code": "R8",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R8",
+   "cited_code": "R4",
+   "top1_agree": false,
+   "top1_in_true_top2": false,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R5",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R9",
+   "cited_code": "R2",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": false
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": false,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R11",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R4",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": true,
+   "placebo_code": "R12",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": true,
+   "flip_placebo": false,
+   "placebo_code": "R6",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  },
+  {
+   "flip_cited": false,
+   "flip_placebo": false,
+   "placebo_code": "R8",
+   "cited_code": "R1",
+   "top1_agree": true,
+   "top1_in_true_top2": true,
+   "cited_adverse": true
+  }
+ ]
+}

@@ -1,0 +1,37 @@
++./run_overnight.sh:9> cd p4-recourse
++./run_overnight.sh:9> ../.venv/bin/python src/run_recourse.py --model haiku --n 260 --workers 6 --seed 3
+phase1 0/260
+phase1 20/260
+phase1 40/260
+phase1 60/260
+phase1 80/260
+phase1 100/260
+phase1 120/260
+phase1 140/260
+phase1 160/260
+phase1 180/260
+phase1 200/260
+phase1 220/260
+phase1 240/260
+decisions: 260  denials with codes: 193
+phase2 0/193
+phase2 10/193
+phase2 20/193
+phase2 30/193
+phase2 40/193
+phase2 50/193
+phase2 60/193
+phase2 70/193
+phase2 80/193
+phase2 90/193
+phase2 100/193
+phase2 110/193
+phase2 120/193
+phase2 130/193
+phase2 140/193
+phase2 150/193
+phase2 160/193
+phase2 170/193
+phase2 180/193
+phase2 190/193
+flip(cited)=0.67 flip(placebo)=0.13 cited-adverse=0.94 reason-stable=0.71 decision-stable=0.86

@@ -1,0 +1,26 @@
+phase1 0/159
+phase1 20/159
+phase1 40/159
+phase1 60/159
+phase1 80/159
+phase1 100/159
+phase1 120/159
+phase1 140/159
+decisions: 200  denials with codes: 151
+phase2 0/151
+phase2 10/151
+phase2 20/151
+phase2 30/151
+phase2 40/151
+phase2 50/151
+phase2 60/151
+phase2 70/151
+phase2 80/151
+phase2 90/151
+phase2 100/151
+phase2 110/151
+phase2 120/151
+phase2 130/151
+phase2 140/151
+phase2 150/151
+flip(cited)=0.64 flip(placebo)=0.14 cited-adverse=0.95 reason-stable=0.64 decision-stable=0.89

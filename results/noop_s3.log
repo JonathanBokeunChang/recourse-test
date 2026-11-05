@@ -1,0 +1,16 @@
++./run_v2.sh:25> cd p4-recourse
++./run_v2.sh:25> ../.venv/bin/python src/control_backfill.py --run s1_haiku_n260_s3 --workers 5
+s1_haiku_n260_s3: no-repair control on 193 denials
+noop 0/193
+noop 20/193
+noop 40/193
+noop 60/193
+noop 80/193
+noop 100/193
+noop 120/193
+noop 140/193
+noop 160/193
+noop 180/193
+flip(no repair) = 0.088  n=193
+  vs flip(placebo) = 0.126
+  vs flip(cited)   = 0.668

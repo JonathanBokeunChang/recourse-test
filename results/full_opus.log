@@ -1,0 +1,15 @@
++./run_opus.sh:9> cd p4-recourse
++./run_opus.sh:9> ../.venv/bin/python src/run_recourse.py --model opus --n 150 --workers 3 --seed 3
+phase1 0/150
+phase1 20/150
+phase1 40/150
+phase1 60/150
+phase1 80/150
+phase1 100/150
+phase1 120/150
+phase1 140/150
+decisions: 150  denials with codes: 28
+phase2 0/28
+phase2 10/28
+phase2 20/28
+flip(cited)=0.79 flip(placebo)=0.36 cited-adverse=1.00 reason-stable=0.64 decision-stable=0.75
